@@ -1,0 +1,98 @@
+/* Đặt CSS cơ bản */
+body, h1, h2, h3, p, input, button, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cart-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.checkout-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+/* Thông tin cá nhân và thanh toán */
+.personal-info, .payment-info, .cart-summary {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.payment-method {
+    margin-bottom: 15px;
+    
+}
+
+.credit-card-info {
+    background-color: #e9f2ff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Giỏ hàng */
+.cart-summary ul {
+    list-style: none;
+}
